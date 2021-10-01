@@ -1,0 +1,41 @@
+body {background-color: black;}
+h1 { color: white;
+    font-family: Arial, Helvetica, sans-serif;}
+p {color: white;}
+.sampleButton {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        color: var(red);
+        background-color: var(green);
+      }
+    .sampleButton{outline-style: none; }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+       #labels {   
+        width: 750px;
+        margin-top:10px;
+        margin-left: auto; 
+        margin-right: auto;
+    
+         text-align: justify;
+        -ms-text-justify: distribute-all-lines;
+        text-justify: distribute-all-lines;
+    }
+    #thumbs a {
+        vertical-align: top;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+    }
+    .stretch {
+        width: 1000%;
+        display: inline-block;
+        font-size: 0;
+        line-height: 0
+    }
